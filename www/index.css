@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: monospace;
+    color: #4a4a4a;
+}
+
+#ideapool {
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#ideapool .idea {
+    box-sizing: border-box;
+    margin: 1em 0;
+    border-radius: .5rem;
+    padding: 1em;
+    background-color: whitesmoke;
+}
