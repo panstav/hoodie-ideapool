@@ -6,19 +6,27 @@
     <title>testtest</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="vendor/normalize-4.2.0.min.css">
+    <link rel="stylesheet" href="elements/button.css">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
 
     <div id="ideapool">
 
-      <div class="idea">Do this idea!</div>
-      <div class="idea">Do that instead!</div>
+      <div id="top-bar">
+        <button data-action="prompt-for-idea" class="less">+ Add an idea!</button>
+      </div>
+
+      <textarea class="idea" name="newidea" placeholder="Share your idea here"></textarea>
+
+      <ul id="ideas-list"></ul>
 
     </div>
 
     <script src="vendor/jquery-2.1.0.min.js"></script>
     <script src="/_api/_files/hoodie.js"></script>
+    <script src="plugins/hoodie.oauthio.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

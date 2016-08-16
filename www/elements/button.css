@@ -1,0 +1,85 @@
+button,a.button {
+    cursor: pointer;
+    border-bottom: 2px solid #b5b5b5;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #666;
+}
+
+button:not(.less),a.button:not(.less) {
+    padding: .3em .7em;
+}
+
+button.less,a.button.less {
+    border: 0;
+}
+
+button.less:hover,a.button.less:hover {
+    background-color: transparent;
+}
+
+button.less,button.transparent,a.button.less,a.button.transparent {
+    background-color: transparent;
+}
+
+button:hover,a.button:hover {
+    background-color: white;
+}
+
+button.silent,a.button.silent {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button.silent:hover,a.button.silent:hover {
+    background-color: #E7E7E7;
+    border-color: transparent;
+}
+
+button.silent:active,a.button.silent:active {
+    background-color: #f7f7f7;
+    border-color: transparent;
+}
+
+button.big,a.button.big {
+    border-radius: 3px;
+    padding: .5rem 1.5rem;
+    font-size: 1.35rem;
+    color: #272727;
+}
+
+button.small,a.button.small {
+    font-size: .8rem;
+}
+
+button.tiny,a.button.tiny {
+    font-size: .75rem;
+    padding: .15em .7em;
+}
+
+@media (max-width: 449px) {
+    button.squat,a.button.squat {
+        font-size:.75rem;
+        padding: .15em .7em;
+    }
+}
+
+button.confirm:not(.silent),a.button.confirm:not(.silent) {
+    background-color: #16afa7;
+    border-color: #10827c;
+}
+
+button.confirm.confirm,button.confirm.growth,a.button.confirm.confirm,a.button.confirm.growth {
+    color: #f5f5f5;
+}
+
+button.confirm:hover,button.confirm.silent:hover,a.button.confirm:hover,a.button.confirm.silent:hover {
+    background-color: #139891;
+    border-color: #0d6b66;
+}
+
+button.confirm:hover.confirm,button.confirm:hover.growth,button.confirm.silent:hover.confirm,button.confirm.silent:hover.growth,a.button.confirm:hover.confirm,a.button.confirm:hover.growth,a.button.confirm.silent:hover.confirm,a.button.confirm.silent:hover.growth {
+    color: white;
+}

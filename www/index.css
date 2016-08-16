@@ -5,6 +5,10 @@ body {
     color: #4a4a4a;
 }
 
+#top-bar {
+    margin-bottom: 2em;
+}
+
 #ideapool {
     box-sizing: border-box;
     max-width: 800px;
@@ -12,10 +16,17 @@ body {
     padding: 2em;
 }
 
+#ideapool textarea[name="newidea"] {
+    display: none;
+    max-height: 20em;
+}
+
 #ideapool .idea {
+    display: inline-block;
     box-sizing: border-box;
-    margin: 1em 0;
+    margin: .5em 1em;
     border-radius: .5rem;
     padding: 1em;
+    width: 100%;
     background-color: whitesmoke;
 }
