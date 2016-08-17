@@ -17,6 +17,7 @@
     "node": "4.4.7"
   },
   "scripts": {
-    "start": "node node_modules/hoodie-server/bin/start"
+    "local": "node node_modules/hoodie-server/bin/start -n",
+    "start": "node node_modules/hoodie-server/bin/start -n -c 80,6002,6003"
   }
 }
